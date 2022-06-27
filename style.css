@@ -1,0 +1,241 @@
+body {
+    margin: 0; 
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(19, 18, 18);
+    background: url(/images/fon.jpg)     center no-repeat;
+    background-size: cover;
+    
+}
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+
+/* Container */
+
+.header-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    border-bottom: 1px solid rgb(15, 13, 13);
+}
+
+/* Navigation */
+
+.nav{
+    display: flex;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+     .nav__link {
+        margin-left: 50px;
+        color: rgb(209, 69, 252);
+        text-decoration: none;
+}
+.nav__link:first-child{
+    margin-left:0;
+}
+
+     .nav__link:hover {
+        opacity: 1;
+        text-decoration: underline;
+     }
+
+
+.logo {
+    width: 200px;
+    height: 150px;
+}
+
+.quote {
+   
+    font-size: 29px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 132px;
+    margin-right: 57px;
+}
+
+.line {
+    margin-left: 167px;
+    width: 1170px;
+    border-bottom: 1px solid rgb(15, 13, 13);
+}
+
+.about {
+    color:rgb(209, 69, 252);
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 61px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.aboute1{
+    color: rgb(56, 56, 56);
+    font-size: 21px; 
+    margin-bottom: 0; 
+    margin-top: 0;
+    margin-left: 20px;
+    line-height: 1.4;
+}
+.me{
+    
+    width: 266px;
+    height: 350px;  
+    border: 7px solid #fff;
+    margin-right: 20px ;
+}
+
+.block_about {
+    display: flex;
+}
+.hobby1 {
+    color:rgb(209, 69, 252);
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 65px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.hobby{
+    margin:100px 0 70px;
+}
+.hobby__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hobby__item{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    
+}
+.hobby__photo{
+    margin-top: -103px;
+    width: 338px;
+    height: 390px; 
+    margin-bottom: 15px;
+    border: 7px solid #fff; 
+
+}
+.hobby__ph{
+    margin-top: -30px;
+    width: 338px;
+    height: 390px; 
+    margin-bottom: 15px;
+    border: 7px solid #fff; 
+
+
+}
+.hobby__name{
+margin-bottom: 8px;
+font-size: 22px;
+color: black;
+margin-left: 7px;
+}
+
+.hobby__text{
+    font-size: 16px;
+    width: 317px;
+    line-height: 1.5;
+    color: rgb(56, 56, 56);
+    margin-left: 7px;
+}
+.wishes1 {
+    color:rgb(209, 69, 252);
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: -50px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.wishes__photo{
+    transition: all 0.5s ease;
+    width: 371.4px;
+    height: 350px; 
+    border: 7px solid #fff;  
+}
+.wishes__photo1{
+    transition: all 0.5s ease;
+    margin-top: -13.2px;
+    width: 371.4px;
+    height: 350px; 
+    border: 7px solid #fff;  
+} 
+.wishes__photo:hover {
+    box-shadow: 0px 20px 40px black;
+    transform: scale(1.1);
+ }
+ .wishes__photo1:hover {
+    box-shadow: 0px 20px 40px black;
+    transform: scale(1.1);
+ }
+
+
+footer{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+footer a{
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.logo1 {
+    width: 200px;
+    height: 150px;
+}
+.log {
+    text-align: center;
+}
+.social img{
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+.social img:hover{
+    border: 4px solid black ;
+    border-radius:50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
