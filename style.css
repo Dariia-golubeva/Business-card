@@ -5,7 +5,8 @@ body {
     color: rgb(19, 18, 18);
     background: url(/images/fon.jpg)     center no-repeat;
     background-size: cover;
-    
+    width: 100%;
+    max-width: 1200px;
 }
 *,
 *:before,
@@ -35,7 +36,7 @@ box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
+ margin-left: 120px;
     border-bottom: 1px solid rgb(15, 13, 13);
 }
 
@@ -52,7 +53,6 @@ box-sizing: border-box;
         color: rgb(209, 69, 252);
         text-decoration: none;
 }
-
 .nav__link:first-child{
     margin-left:0;
 }
@@ -78,8 +78,8 @@ box-sizing: border-box;
 }
 
 .line {
-    margin-left: 90px;
-    width: 1170px;
+    margin-left: 134px;
+    width: 1052px;
     border-bottom: 1px solid rgb(15, 13, 13);
 }
 
@@ -94,18 +94,18 @@ box-sizing: border-box;
 }
 .aboute1{
     color: rgb(56, 56, 56);
-    font-size: 21px; 
+    font-size: 20px; 
     margin-bottom: 0; 
     margin-top: 0;
     margin-left: 20px;
-    line-height: 1.4;
+    line-height: 1.35;
 }
 .me{
     
     width: 266px;
     height: 350px;  
     border: 7px solid #fff;
-    margin-right: 20px ;
+    margin-right: -131px ;
 }
 
 .block_about {
@@ -119,6 +119,7 @@ box-sizing: border-box;
     padding-top: 65px;
     text-align: center;
     padding-bottom: 10px;
+    padding-left: 106px;
 }
 
 .hobby{
@@ -133,20 +134,20 @@ box-sizing: border-box;
     padding: 0 15px;
     margin-bottom: 30px;
     padding-top: 25px;
-    
+    padding-left: 75px;
 }
 .hobby__photo{
     margin-top: -103px;
-    width: 338px;
-    height: 390px; 
+    width: 293px;
+    height: 342px; 
     margin-bottom: 15px;
     border: 7px solid #fff; 
 
 }
 .hobby__ph{
     margin-top: -30px;
-    width: 338px;
-    height: 390px; 
+    width: 293px;
+    height: 342px; 
     margin-bottom: 15px;
     border: 7px solid #fff; 
 
@@ -161,11 +162,20 @@ margin-left: 7px;
 
 .hobby__text{
     font-size: 16px;
-    width: 317px;
+    width: 295px;
     line-height: 1.5;
     color: rgb(56, 56, 56);
     margin-left: 7px;
 }
+
+.wishes-line {
+    margin-left: 77px;
+}
+
+.img-line {
+    width: 1200px;
+}
+
 .wishes1 {
     color:rgb(209, 69, 252);
     font-size: 35px;
@@ -174,18 +184,20 @@ margin-left: 7px;
     margin-top: -50px;
     text-align: center;
     padding-bottom: 10px;
+    padding-left: 102px;
 }
 .wishes__photo{
     transition: all 0.5s ease;
-    width: 371.4px;
-    height: 350px; 
-    border: 7px solid #fff;  
+    width: 296.4px;
+    height: 301px; 
+    border: 7px solid #fff; 
+     
 }
 .wishes__photo1{
     transition: all 0.5s ease;
     margin-top: -13.2px;
-    width: 371.4px;
-    height: 350px; 
+    width: 296.4px;
+    height: 301px; 
     border: 7px solid #fff;  
 } 
 .wishes__photo:hover {
@@ -204,6 +216,7 @@ footer{
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
+    padding-left: 127px;
 }
 footer a{
     font-size: 17px;
