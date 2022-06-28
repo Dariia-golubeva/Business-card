@@ -52,6 +52,7 @@ box-sizing: border-box;
         color: rgb(209, 69, 252);
         text-decoration: none;
 }
+
 .nav__link:first-child{
     margin-left:0;
 }
@@ -77,7 +78,7 @@ box-sizing: border-box;
 }
 
 .line {
-    margin-left: 167px;
+    margin-left: 90px;
     width: 1170px;
     border-bottom: 1px solid rgb(15, 13, 13);
 }
